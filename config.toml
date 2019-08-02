@@ -1,3 +1,82 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.edu"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Antoine Prouvost"
+theme = "avicenna"
+timeout=3000
+
+[params]
+	subtitle= "Ph.D. Candidate"
+	interests="""Deep Learning, Reinforcement Learning, Discrete Optimization,
+		Software Engineering"""
+	cv_name= "aprouvost-cv.pdf"
+
+[[params.affilation]]
+	name = "Polytechnique Montréal"
+	position = "Ph.D. Candidate"
+
+[[params.affilation]]
+	name = "Mila, Quebec Artificial Intelligence Institute"
+	position = "Student"
+	contact = "***REMOVED***"
+
+[[params.social]]
+	name = "GitHub"
+	icon = "github"
+	url = "https://github.com/AntoinePrv"
+
+[[params.social]]
+	name = "Twitter"
+	icon = "twitter"
+	url = "https://twitter.com/AntoineProuvost"
+
+[[params.social]]
+	name = "Scholar"
+	icon = "book-open"
+	url = "https://scholar.google.com/citations?user=5k3Cll0AAAAJ&hl=en&oi=ao"
+
+[[params.social]]
+	name = "LinkedIn"
+	icon = "linkedin"
+	url = "https://www.linkedin.com/in/antoine-prouvost-0667b6a4/"
+
+
+[[params.introduction.paragraph]]
+	text="""I am a Ph.D. candidate in Montréal under supervison of Prof.
+	[Andrea Lodi](http://cerc-datascience.polymtl.ca/person/dr-andrea-lodi/)
+	and Prof. [Yoshua Bengio](https://mila.quebec/yoshua-bengio/).
+	I work at the interplay of deep learning and operations research, building
+	combinatorial optimization algorithm that leverage machine learning to adapt
+	to different problem structure.
+	"""
+
+[[params.introduction.paragraph]]
+	text="""I am passionate about anything that happens on a computer.
+	I love learning programming languages, their idiomatic features, and build
+	systems. I continously improve my development workflow, using git, virtual
+	environments, continuous integration, and containers.
+	I like a streamlined environment, spending all my time in the terminal, with
+	Vim and Tmux.
+	"""
+
+
+[[params.publications]]
+	year="Working paper"
+
+	[[params.publications.paper]]
+		name = "Learning to Cut in Mixed Integer Linear Programs"
+		authors = "Antoine Prouvost, Aleksandr Kazachkov, Andrea Lodi"
+		dest= "Upcoming"
+
+[[params.publications]]
+	year="Preprints"
+
+	[[params.publications.paper]]
+		name = "Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon"
+		authors = "Yoshua Bengio, Andrea Lodi, Antoine Prouvost"
+		dest = "European Journal of Operations Research"
+		link = "https://arxiv.org/abs/1811.06128"
+
+	[[params.publications.paper]]
+		name = "Adverse Event Prediction by Telemonitoring and Deep Learning"
+		authors = "Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, and Jonathan Vallee"
+		dest = "Fourth International Conference on Health Care Systems Engineering"
