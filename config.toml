@@ -1,4 +1,4 @@
-baseURL = "https://example.edu"
+baseURL = "https://www.prouvost.dev"
 languageCode = "en-us"
 title = "Antoine Prouvost"
 theme = "avicenna"
