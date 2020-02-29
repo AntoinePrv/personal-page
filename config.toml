@@ -82,47 +82,50 @@ timeout=3000
 		dest = "Fourth International Conference on Health Care Systems Engineering"
 
 
-[[params.presentations]]
-	year="2019"
+[[params.sections]]
+	title = "Research Presentations"
 
-	[[params.presentations.presentation]]
-		name = "Learning a Cutting Plane Selection Policy"
-		authors = "Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi"
-		dest = "talk in [INFORMS](http://meetings2.informs.org/wordpress/seattle2019/), Seattle"
-		link = "pres/2019-informs.pdf"
+	[[params.sections.subsections]]
+		title = "2019"
 
-	[[params.presentations.presentation]]
-		name = "Learning a Cutting Plane Selection Policy"
-		authors = "Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi"
-		dest = "poster in [MIP workshop](https://sites.google.com/view/mipworkshop2019), Boston"
-		link = "pres/2019-mip.pdf"
+		[[params.sections.subsections.items]]
+			name = "Learning a Cutting Plane Selection Policy"
+			authors = "Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi"
+			dest = "talk in [INFORMS](http://meetings2.informs.org/wordpress/seattle2019/), Seattle"
+			link = "pres/2019-informs.pdf"
 
-	[[params.presentations.presentation]]
-		name = "Adverse Event Prediction by Telemonitoring and Deep Learning"
-		authors = "Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, Jonathan Valle"
-		dest = "talk in [HCSE](https://symposia.cirrelt.ca/hcse2019/en/home), Montreal"
-		link = "pres/2019-hcse.pdf"
+		[[params.sections.subsections.items]]
+			name = "Learning a Cutting Plane Selection Policy"
+			authors = "Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi"
+			dest = "poster in [MIP workshop](https://sites.google.com/view/mipworkshop2019), Boston"
+			link = "pres/2019-mip.pdf"
 
-	[[params.presentations.presentation]]
-		name = "Machine Learning for Combinatorial Optimization"
-		authors = "Antoine Prouvost, Yoshua Bengio, Andrea Lodi"
-		dest = "talk in [Optimization Days](https://symposia.cirrelt.ca/JOPT2019/en/home), Montreal"
-		link = "pres/2019-jopt.pdf"
+		[[params.sections.subsections.items]]
+			name = "Adverse Event Prediction by Telemonitoring and Deep Learning"
+			authors = "Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, Jonathan Valle"
+			dest = "talk in [HCSE](https://symposia.cirrelt.ca/hcse2019/en/home), Montreal"
+			link = "pres/2019-hcse.pdf"
 
-	[[params.presentations.presentation]]
-		name = "Machine Learning for Combinatorial Optimization"
-		authors = "Antoine Prouvost, Yoshua Bengio, Andrea Lodi"
-		dest = "talk at [ElementAI](https://www.elementai.com/) headquarters, Montreal"
-		link = "pres/2019-elementai.pdf"
+		[[params.sections.subsections.items]]
+			name = "Machine Learning for Combinatorial Optimization"
+			authors = "Antoine Prouvost, Yoshua Bengio, Andrea Lodi"
+			dest = "talk in [Optimization Days](https://symposia.cirrelt.ca/JOPT2019/en/home), Montreal"
+			link = "pres/2019-jopt.pdf"
 
-[[params.presentations]]
-	year="2018"
+		[[params.sections.subsections.items]]
+			name = "Machine Learning for Combinatorial Optimization"
+			authors = "Antoine Prouvost, Yoshua Bengio, Andrea Lodi"
+			dest = "talk at [ElementAI](https://www.elementai.com/) headquarters, Montreal"
+			link = "pres/2019-elementai.pdf"
 
-	[[params.presentations.presentation]]
-		name = "Methodology of Machine Learning for Combinatorial Optimization"
-		authors = "Antoine Prouvost, Andrea Lodi"
-		dest = """student talk at
-			[CERMICS Operations Research and Machine Learning summer school](
-			https://cermics-lab.enpc.fr/summer-school-operations-research-and-machine-learning/),
-			Fréjus"""
-		link = "pres/2018-cermics.pdf"
+	[[params.sections.subsections]]
+		title = "2018"
+
+		[[params.sections.subsections.items]]
+			name = "Methodology of Machine Learning for Combinatorial Optimization"
+			authors = "Antoine Prouvost, Andrea Lodi"
+			dest = """student talk at
+				[CERMICS Operations Research and Machine Learning summer school](
+				https://cermics-lab.enpc.fr/summer-school-operations-research-and-machine-learning/),
+				Fréjus"""
+			link = "pres/2018-cermics.pdf"
