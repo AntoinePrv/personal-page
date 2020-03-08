@@ -145,7 +145,7 @@ timeout=3000
 			[Mila](https://mila.quebec/en/) Nov 2018, Jan 2019,
 			[NextAi](https://www.nextcanada.com/next-ai/) Mar 2019.
 			"""
-		link = "tuto/pytorch/introduction/"
+		link = "tuto/pytorch/introduction.pdf"
 		code_link = "https://nbviewer.jupyter.org/urls/www.prouvost.dev/tuto/pytorch/tutorial.ipynb"
 
 	[[params.sections.items]]
