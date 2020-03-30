@@ -136,18 +136,18 @@ timeout=3000
 
 	[[params.sections.items]]
 		name = "Organizing a Python Project"
-		dest = "at [GERAD](https://www.gerad.ca/fr), Feb 2020"
+		dest = "at [GERAD](https://www.gerad.ca/fr) (Feb 2020)"
 		link = "tuto/python-project/"
 
 	[[params.sections.items]]
 		name = "Introduction to PyTorch"
-		dest = """at [GERAD](https://www.gerad.ca/fr), Sep 2018,
-			[Mila](https://mila.quebec/en/) Nov 2018, Jan 2019,
-			[NextAi](https://www.nextcanada.com/next-ai/) Mar 2019.
+		dest = """at [GERAD](https://www.gerad.ca/fr) (Sep 2018),
+			[Mila](https://mila.quebec/en/) (Nov 2018, Jan 2019),
+			[NextAi](https://www.nextcanada.com/next-ai/) (Mar 2019, Mar 2020)
 			"""
 		link = "tuto/pytorch/introduction.pdf"
 		code_link = "https://nbviewer.jupyter.org/urls/www.prouvost.dev/tuto/pytorch/tutorial.ipynb"
 
 	[[params.sections.items]]
 		name = "Git and Github"
-		dest = "at [GERAD](https://www.gerad.ca/fr), May 2018"
+		dest = "at [GERAD](https://www.gerad.ca/fr) (May 2018)"
