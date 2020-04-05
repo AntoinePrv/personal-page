@@ -1,0 +1,132 @@
+version: 2.1
+
+
+commands:
+  deploy_github:
+    description: |
+      Deploy assets to GitHub. Modified from orb
+      https://circleci.com/orbs/registry/orb/sugarshin/gh-pages
+    parameters:
+      build_dir:
+        description: Directory with files to deploy
+        type: string
+      commit_message:
+        default: "Automatic deploy of ${COMMIT_HASH} [ci skip]"
+        type: string
+      delete_previous:
+        default: false
+        type: boolean
+        description: |
+          Delete previous files before deploying, making the files in the build directory
+          the only ones remaining.
+      git_email:
+        default: "${CIRCLE_USERNAME}@users.noreply.github.com"
+        description: Git email to amke commit.
+        type: string
+      git_user:
+        default: "${CIRCLE_USERNAME}"
+        description: Git user to make commit.
+        type: string
+      project_username:
+        default: "${CIRCLE_PROJECT_USERNAME}"
+        description: Username of the Github repository to push to.
+        type: string
+      project_reponame:
+        default: "${CIRCLE_PROJECT_REPONAME}"
+        description: Name of the Github repository to push to.
+        type: string
+      project_branch:
+        default: "gh-pages"
+        type: string
+        description: Branch of the Github repository to push to.
+      setup_git:
+        default: true
+        description: Setting Git username and email.
+        type: boolean
+      ssh_fingerprints:
+        default: ""
+        description: |
+          Fingerprints for SSH deploy key (add the public key as a read/write key on
+          GitHub; add the private key in CircleCI via SSH Permissions, with github.com as
+          Hostname). Used to push a git tag back to the project's repository.
+        type: string
+      tmp_dir:
+        default: .deploy
+        description: A directory created temporarily for deployment
+        type: string
+    steps:
+    - when:
+        condition: "<< parameters.ssh_fingerprints >>"
+        steps:
+        - add_ssh_keys:
+            fingerprints:
+            - "<< parameters.ssh_fingerprints >>"
+    - when:
+        condition: "<< parameters.setup_git >>"
+        steps:
+          - run:
+              name: "Setup git"
+              command: |
+                git config --global user.name "<< parameters.git_user >>"
+                git config --global user.email "<< parameters.git_email >>"
+    - run:
+        name: "Clone repository to deploy to"
+        command: |
+          readonly USERNAME="<< parameters.project_username >>"
+          readonly REPONAME="<< parameters.project_reponame >>"
+          readonly GIT_URL="git@github.com:${USERNAME}/${REPONAME}.git"
+          readonly BRANCH="<< parameters.project_branch >>"
+          readonly DIR="<< parameters.tmp_dir >>"
+          git clone --depth=1 "${GIT_URL}" -b "${BRANCH}" "${DIR}"
+    - when:
+        condition: "<< parameters.delete_previous >>"
+        steps:
+          - run:
+              name: "Delete previous files in deploy project."
+              command: rm -rf "<< parameters.tmp_dir >>"/*
+    - run:
+        name: "Deploy to GitHub Pages"
+        command: |
+          readonly COMMIT_HASH=$(git rev-parse --short HEAD)
+          readonly MESSAGE="<< parameters.commit_message >>"
+          readonly DIST="<< parameters.build_dir >>"
+          readonly DIR="<< parameters.tmp_dir >>"
+
+          cp -R "${DIR}/../${DIST}/." "${DIR}"
+          cd "${DIR}"
+          git add --all
+          git commit -m "${MESSAGE}" || true
+          git push origin
+
+
+jobs:
+
+  build_deploy:
+    docker:
+      - image: cibuilds/hugo:0.67
+    environment:
+      HUGO_ENV: "production"
+    steps:
+      - checkout
+      - run:
+          name: "Pull git submodules"
+          command: git submodule update --init --recursive
+      - run:
+          name: "Build with Hugo"
+          command: hugo -v
+      - deploy_github:
+          ssh_fingerprints: "2d:05:1b:47:2e:80:28:f6:5c:89:91:c6:1c:6e:ab:86"
+          build_dir: "public"
+          delete_previous: true
+          project_reponame: "AntoinePrv.github.io"
+          project_branch: "${CIRCLE_BRANCH}"
+
+
+workflows:
+
+  continuous_building:
+    jobs:
+      - build_deploy:
+        filters:
+            branches:
+              only: master
