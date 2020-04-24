@@ -60,14 +60,6 @@ timeout=3000
 
 
 [[params.publications]]
-	year="Working paper"
-
-	[[params.publications.paper]]
-		name = "Learning to Cut in Mixed Integer Linear Programs"
-		authors = "Antoine Prouvost, Aleksandr Kazachkov, Andrea Lodi"
-		dest= "Upcoming"
-
-[[params.publications]]
 	year="Preprints"
 
 	[[params.publications.paper]]
@@ -76,10 +68,14 @@ timeout=3000
 		dest = "European Journal of Operations Research"
 		link = "https://arxiv.org/abs/1811.06128"
 
+[[params.publications]]
+	year="2020"
+
 	[[params.publications.paper]]
 		name = "Adverse Event Prediction by Telemonitoring and Deep Learning"
 		authors = "Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, and Jonathan Vallee"
 		dest = "Fourth International Conference on Health Care Systems Engineering"
+		link = "https://link.springer.com/chapter/10.1007%2F978-3-030-39694-7_16"
 
 
 [[params.sections]]
