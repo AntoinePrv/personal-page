@@ -74,7 +74,8 @@ timeout=3000
 	[[params.publications.paper]]
 		name = "Adverse Event Prediction by Telemonitoring and Deep Learning"
 		authors = "Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, and Jonathan Vallee"
-		dest = "Fourth International Conference on Health Care Systems Engineering"
+		dest = """Fourth International Conference on Health Care Systems Engineering
+		([Accepted Manuscript](pub/2020-adverse-event-prediction.pdf))"""
 		link = "https://link.springer.com/chapter/10.1007%2F978-3-030-39694-7_16"
 
 
