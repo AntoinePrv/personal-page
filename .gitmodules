@@ -1,3 +1,6 @@
 [submodule "themes/avicenna"]
 	path = themes/avicenna
 	url = git@github.com:AntoinePrv/avicenna.git
+[submodule "themes/ezhil"]
+	path = themes/ezhil
+	url = git@github.com:AntoinePrv/ezhil.git
