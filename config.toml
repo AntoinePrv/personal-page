@@ -2,17 +2,24 @@ baseURL = "https://www.prouvost.dev/"
 languageCode = "en-us"
 title = "Antoine Prouvost"
 theme = "ezhil"
-timeout=3000
+copyright = "© Antoine Prouvost"
+paginate = 50
+
+sectionPagesMenu = "main"
 
 [[menu.main]]
-name = "About"
-url = "/"
-weight = 1
+	name = "Home"
+	url = "/"
+	weight = 1
 
 [[menu.main]]
-name = "Blog"
-url = "/blog/"
-weight = 2
+	identifier = "post"
+	name = "Blog"
+	url = "/post/"
+	weight = 2
+
+[permalinks]
+  post = "/:sections/:year/:title/"
 
 [params]
 	subtitle= "Ph.D. Candidate"  # Page title (in tab)
