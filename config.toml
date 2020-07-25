@@ -19,7 +19,11 @@ sectionPagesMenu = "main"
 	weight = 2
 
 [permalinks]
-  post = "/:sections/:year/:title/"
+	post = "/:sections/:year/:title/"
+
+[markup.highlight]
+	style = "monokai"
+
 
 [params]
 	subtitle= "Ph.D. Candidate"  # Page title (in tab)
