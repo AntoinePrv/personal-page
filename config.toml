@@ -26,8 +26,9 @@ sectionPagesMenu = "main"
 
 
 [params]
-	subtitle= "Ph.D. Candidate"  # Page title (in tab)
-	cv_name= "aprouvost-cv.pdf"
+	subtitle = "Ph.D. Candidate"  # Page title (in tab)
+	cv_name = "aprouvost-cv.pdf"
+	goatcounter = "prouvost"
 
 [[params.social]]
 	name = "GitHub"
