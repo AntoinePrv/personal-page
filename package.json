@@ -1,0 +1,22 @@
+{
+  "name": "www.prouvost.dev",
+  "version": "0.1.0",
+  "description": "Antoine Prouvost's personnal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoinePrv/personal-page.git"
+  },
+  "author": "Antoine Prouvost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntoinePrv/personal-page/issues"
+  },
+  "homepage": "https://www.prouvost.dev",
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
