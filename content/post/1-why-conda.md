@@ -56,7 +56,7 @@ Conda
 
 
 ## Language Agnostic
-Contrary to popular believe, conda is not (only) a Python package manager.
+Contrary to popular belief, conda is not (only) a Python package manager.
 It can distribute all types of files and programs.
 For instance, you might find there:
 - Pure Python packages, such as the http library [Requests](https://anaconda.org/anaconda/requests);
@@ -87,7 +87,7 @@ This is only an overview, and the details are even more complicated.
 For instance scikit-learn also depends on NumPy and SciPy depnds on some the same shared libraries
 as NumPy.
 
-Fortunaltely, we do not need to know all of this.
+Fortunately, we do not need to know all of this.
 We use scikit-learn out of the box and it works great!
 With Conda, the fact that one can upload package of any kind means developper can depend directly on
 shared libraries such as BLAS.
@@ -98,8 +98,7 @@ For example, on Intel processors, a dedicted BLAS implementation called
 used.
 Another example is that of Graphic Processing Units (GPU) getting traction in scientific computing
 (including, but not limited to, deep learning).
-The GPUs has its own set of shared libraries that is need to function, and more to function
-efficiently.
+GPUs also need a set of shared libraries to function efficiently.
 Doing Deep Learning on an Nvidia GPU, one would typically indirectly need
 [CUDA](https://developer.nvidia.com/cuda-zone) and [CuDNN](https://developer.nvidia.com/cudnn).
 
