@@ -22,27 +22,32 @@ Vim and Tmux.
 
 
 ### Publications
-#### Work in progress
-- [Ecole: a library for learning inside the SCIP solver](https://www.ecole.ai/).
-  Antoine Prouvost, _et al._\
-  [[code](https://github.com/ds4dm/ecole)]
-
 #### 2020
+- [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](
+https://openreview.net/forum?id=IVc9hqgibyB).
+  Antoine Prouvost, Justin Dumouchelle, Lara Scavuzzo, Maxime Gasse, Didier Chételat, Andrea Lodi.
+  Poster paper in NeurIPS Learning Meets Combinatorial Algorithm Workshop.\
+  [[pdf](https://openreview.net/pdf?id=IVc9hqgibyB)]
+  [[website](https://www.ecole.ai/)]
+  [[code](https://github.com/ds4dm/ecole)]
 - [Machine learning for combinatorial optimization: A methodological tour d’horizon](
   https://doi.org/10.1016/j.ejor.2020.07.063).
   Yoshua Bengio, Andrea Lodi, Antoine Prouvost.
-  European Journal of Operations Research\
+  European Journal of Operations Research.\
   [[pdf](https://arxiv.org/pdf/1811.06128.pdf)]
 - [Adverse Event Prediction by Telemonitoring and Deep Learning](
   https://link.springer.com/chapter/10.1007%2F978-3-030-39694-7_16).
   Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, and Jonathan Vallee.
-  Fourth International Conference on Health Care Systems Engineering\
+  Fourth International Conference on Health Care Systems Engineering.\
   [[pdf](pub/2020-adverse-event-prediction.pdf)]
   [[bib](https://citation-needed.springer.com/v2/references/10.1007/978-3-030-39694-7_16?format=bibtex&flavour=citation)]
 
 
 ### Research Presentations
 #### 2020
+- [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](pres/2019-neurips.pdf).
+  Antoine Prouvost, Justin Dumouchelle, Lara Scavuzzo, Maxime Gasse, Didier Chételat, Andrea Lodi.
+  Poster in [NeurIPS LMCA Workshop](https://sites.google.com/view/lmca2020/home), Online.
 - [Ecole: A Library for Learning Inside MILP Solvers](pres/2020-informs.pdf).
   Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.
   Talk in [INFORMS](https://meetings2.informs.org/wordpress/annual2020/), Online.
