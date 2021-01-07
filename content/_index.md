@@ -11,6 +11,10 @@ I work at the interplay of deep learning and operations research, building
 combinatorial optimization algorithm that leverage machine learning to adapt
 to different problem structure.
 
+I am currently the lead developper on [Ecole](https://www.ecole.ai), a Python and C++ library that
+aims to expose a number of control problems arising in combinatorial optimization solvers as Markov
+Decision Processes (i.e., Reinforcement Learning environments).
+
 I am passionate about anything that happens on a computer.
 I love learning programming languages, their idiomatic features, and build
 systems. I continously improve my development workflow, using git, virtual
