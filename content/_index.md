@@ -42,10 +42,15 @@ Vim and Tmux.
 
 
 ### Research Presentations
+#### 2020
+- [Ecole: A Library for Learning Inside MILP Solvers](pres/2020-informs.pdf).
+  Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.
+  Talk in [INFORMS](https://meetings2.informs.org/wordpress/annual2020/), Online.
+
 #### 2019
 - [Learning a Cutting Plane Selection Policy](pres/2019-informs.pdf).
-  Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.
-  Talk in [INFORMS](http://meetings2.informs.org/wordpress/seattle2019/), Seattle.
+  Antoine Prouvost, Maxime Gasse, Didier Chetelat, Andrea Lodi.
+  Talk in [INFORMS](https://meetings2.informs.org/wordpress/seattle2019/), Seattle.
 - [Learning a Cutting Plane Selection Policy](pres/2019-mip.pdf).
   Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.
   Poster in [MIP workshop](https://sites.google.com/view/mipworkshop2019), Boston.
