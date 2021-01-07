@@ -44,6 +44,12 @@ https://openreview.net/forum?id=IVc9hqgibyB).
 
 
 ### Research Presentations
+#### 2021
+- [Machine Learning for Combinatorial Optimization](https://sites.google.com/view/ml4co-ijcai20/home).
+  Elias B. Khalil, Didier Chételat, Maxime Gasse, Antoine Prouvost, Giulia Zarpellon, Laurent
+  Charlin, Andrea Lodi.
+  Tutorial in [IJCAI 2020](https://ijcai20.org/), Online, Postponed.
+
 #### 2020
 - [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](pres/2019-neurips.pdf).
   Antoine Prouvost, Justin Dumouchelle, Lara Scavuzzo, Maxime Gasse, Didier Chételat, Andrea Lodi.
