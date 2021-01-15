@@ -49,6 +49,9 @@ https://openreview.net/forum?id=IVc9hqgibyB).
 
 ### Research Presentations
 #### 2021
+- [Recent Advances in Integrating Machine Learning and Combinatorial Optimization](https://aaai.org/Conferences/AAAI-21/aaai21tutorials/#mh7)
+  Elias B. Khalil, Andrea Lodi, Bistra Dilkina, Didier Chételat, Maxime Gasse, Antoine Prouvost, Giulia Zarpellon, Laurent Charlin
+  Tutorial in [AAAI](https://aaai.org/Conferences/AAAI-21/), Online.
 - [Machine Learning for Combinatorial Optimization](https://sites.google.com/view/ml4co-ijcai20/home).
   Elias B. Khalil, Didier Chételat, Maxime Gasse, Antoine Prouvost, Giulia Zarpellon, Laurent
   Charlin, Andrea Lodi.
