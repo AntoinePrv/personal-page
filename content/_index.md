@@ -58,7 +58,7 @@ https://openreview.net/forum?id=IVc9hqgibyB).
   Tutorial in [IJCAI 2020](https://ijcai20.org/), Online, Postponed.
 
 #### 2020
-- [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](pres/2019-neurips.pdf).
+- [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](pres/2020-neurips.pdf).
   Antoine Prouvost, Justin Dumouchelle, Lara Scavuzzo, Maxime Gasse, Didier Chételat, Andrea Lodi.
   Poster in [NeurIPS LMCA Workshop](https://sites.google.com/view/lmca2020/home), Online.
 - [Ecole: A Library for Learning Inside MILP Solvers](pres/2020-informs.pdf).
