@@ -62,7 +62,7 @@ https://openreview.net/forum?id=IVc9hqgibyB).
   Antoine Prouvost, Justin Dumouchelle, Lara Scavuzzo, Maxime Gasse, Didier Chételat, Andrea Lodi.
   Poster in [NeurIPS LMCA Workshop](https://sites.google.com/view/lmca2020/home), Online.
 - [Ecole: A Library for Learning Inside MILP Solvers](pres/2020-informs.pdf).
-  Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.
+  Antoine Prouvost, Justin Dumouchelle, Maxime Gasse, Didier Chételat, Andrea Lodi.
   Talk in [INFORMS](https://meetings2.informs.org/wordpress/annual2020/), Online.
 
 #### 2019
