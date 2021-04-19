@@ -16,19 +16,26 @@ aims to expose a number of control problems arising in combinatorial optimizatio
 Decision Processes (i.e., Reinforcement Learning environments).
 
 I am passionate about anything that happens on a computer.
-I love learning programming languages, their idiomatic features, and build
-systems. I continously improve my development workflow, using git, virtual
-environments, continuous integration, and containers.
-I like a streamlined environment, spending all my time in the terminal, with
-Vim and Tmux.
+I love learning programming languages, their idiomatic features, and build systems.
+I continously improve my development workflow, using git, virtual environments, continuous
+integration, and containers.
+I like a streamlined environment, spending all my time in the terminal, with Vim and Tmux.
 
 **Interests**: Deep Learning, Reinforcement Learning, Discrete Optimization, Software Engineering.
 
 
 ### Publications
+#### 2021
+- [Ecole: A Library for Learning Inside MILP Solvers](https://arxiv.org/abs/2104.02828).
+  Antoine Prouvost, Justin Dumouchelle, Maxime Gasse, Didier Chételat, Andrea Lodi.
+  Under review in INFORMS Journal of Computing.\
+  [[pdf](https://arxiv.org/abs/2104.02828)]
+  [[website](https://www.ecole.ai/)]
+  [[code](https://github.com/ds4dm/ecole)]
+
 #### 2020
 - [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](
-https://openreview.net/forum?id=IVc9hqgibyB).
+  https://openreview.net/forum?id=IVc9hqgibyB).
   Antoine Prouvost, Justin Dumouchelle, Lara Scavuzzo, Maxime Gasse, Didier Chételat, Andrea Lodi.
   Poster paper in NeurIPS Learning Meets Combinatorial Algorithm Workshop.\
   [[pdf](https://openreview.net/pdf?id=IVc9hqgibyB)]
@@ -50,7 +57,8 @@ https://openreview.net/forum?id=IVc9hqgibyB).
 ### Research Presentations
 #### 2021
 - [Recent Advances in Integrating Machine Learning and Combinatorial Optimization](https://sites.google.com/view/ml-co-aaai-21/)
-  Elias B. Khalil, Andrea Lodi, Bistra Dilkina, Didier Chételat, Maxime Gasse, Antoine Prouvost, Giulia Zarpellon, Laurent Charlin
+  Elias B. Khalil, Andrea Lodi, Bistra Dilkina, Didier Chételat, Maxime Gasse, Antoine Prouvost,
+  Giulia Zarpellon, Laurent Charlin
   Tutorial in [AAAI](https://aaai.org/Conferences/AAAI-21/), Online.
 - [Machine Learning for Combinatorial Optimization](https://sites.google.com/view/ml4co-ijcai20/home).
   Elias B. Khalil, Didier Chételat, Maxime Gasse, Antoine Prouvost, Giulia Zarpellon, Laurent
