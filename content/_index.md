@@ -1,15 +1,24 @@
 +++
 email = "***REMOVED***"
-subtitle = "Ph.D. Candidate"
+subtitle = "Research Software Engineer"
 +++
 
-I am a Ph.D. candidate in [Polytechnique Montréal](https://www.polymtl.ca/en) under
-supervison of Prof. [Andrea Lodi](http://cerc-datascience.polymtl.ca/person/dr-andrea-lodi/)
+I am an indenpendent research sofware engineer, qualified in combinatorial optimization, machine
+learning, C++, Python, and related development tools.
+I am currently looking for contracts or job offerings.
+I am commited to have a positive social impact through my work, and am particularly interested in
+software engineering challenges related to tackling climate change.
+
+I graduated with Ph.D. in Machine Learning for Combinatorial Optimization from
+[Polytechnique Montréal](https://www.polymtl.ca/en) under supervison of Prof.
+[Andrea Lodi](http://cerc-datascience.polymtl.ca/person/dr-andrea-lodi/)
 at [CERC DS4DM](https://cerc-datascience.polymtl.ca/) and Prof.
 [Yoshua Bengio](https://mila.quebec/yoshua-bengio/) at [Mila](https://mila.quebec/en/).
-I work at the interplay of deep learning and operations research, building
-combinatorial optimization algorithm that leverage machine learning to adapt
-to different problem structure.
+I worked at the interplay of deep learning and operations research, building combinatorial
+optimization algorithm that leverage machine learning to adapt to different problem structure.
+
+Before the Ph.D., I obtained an engineering degree (M.Sc.) in Data Science from
+[École Polytechnique](https://www.polytechnique.edu/en/), France's leading engineering school.
 
 I am currently the lead developper on [Ecole](https://www.ecole.ai), a Python and C++ library that
 aims to expose a number of control problems arising in combinatorial optimization solvers as Markov
