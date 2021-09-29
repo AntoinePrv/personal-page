@@ -84,19 +84,19 @@ I like a streamlined environment, spending all my time in the terminal, with Vim
 
 #### 2019
 - [Learning a Cutting Plane Selection Policy](pres/2019-informs.pdf).
-  Antoine Prouvost, Maxime Gasse, Didier Chetelat, Andrea Lodi.
+  Antoine Prouvost, Maxime Gasse, Didier Chetelat, Andrea Lodi.\
   Talk in [INFORMS](https://meetings2.informs.org/wordpress/seattle2019/), Seattle.
 - [Learning a Cutting Plane Selection Policy](pres/2019-mip.pdf).
-  Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.
+  Antoine Prouvost, Aleksandr M. Kazachkov, Andrea Lodi.\
   Poster in [MIP workshop](https://sites.google.com/view/mipworkshop2019), Boston.
 - [Adverse Event Prediction by Telemonitoring and Deep Learning](pres/2019-hcse.pdf).
-  Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, Jonathan Valle.
+  Antoine Prouvost, Andrea Lodi, Louis-Martin Rousseau, Jonathan Valle.\
   Talk in [HCSE](https://symposia.cirrelt.ca/hcse2019/en/home), Montreal.
 - [Machine Learning for Combinatorial Optimization](pres/2019-jopt.pdf).
-  Antoine Prouvost, Yoshua Bengio, Andrea Lodi.
+  Antoine Prouvost, Yoshua Bengio, Andrea Lodi.\
   Talk in [Optimization Days](https://symposia.cirrelt.ca/JOPT2019/en/home), Montreal.
 - [Machine Learning for Combinatorial Optimization](pres/2019-elementai.pdf).
-  Antoine Prouvost, Yoshua Bengio, Andrea Lodi.
+  Antoine Prouvost, Yoshua Bengio, Andrea Lodi.\
   Talk at [ElementAI](https://www.elementai.com/) headquarters, Montreal.
 
 #### 2018
@@ -107,6 +107,16 @@ I like a streamlined environment, spending all my time in the terminal, with Vim
   https://cermics-lab.enpc.fr/summer-school-operations-research-and-machine-learning/).
   Fréjus.
 
+
+### Community Events
+#### 2021
+ - [NeurIPS Machine Learning for Combinatorial Optimization Competition](https://www.ecole.ai/2021/ml4co-competition/).
+   Simon Bowly, Chris Cameron, Quentin Cappart, Jonas Charfreitag, Laurent Charlin, Didier Chételat,
+   Justin Dumouchelle, Maxime Gasse, Ambros Gleixner, Aleksandr M. Kazachkov, Elias B. Khalil,
+   Pawel Lichocki, Andrea Lodi, Miles Lubin, Chris J. Maddison, Christopher Morris,
+   Dimitri J. Papageorgiou, Augustin Parjadis, Sebastian Pokutta, Antoine Prouvost, Lara Scavuzzo,
+   Giulia Zarpellon.\
+   Co-organiser, Ecole support.
 
 ### Engineering Tutorials
 - [Organizing a Python Project](tuto/python-project/)
