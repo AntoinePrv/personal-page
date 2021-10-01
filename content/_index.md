@@ -1,5 +1,5 @@
 +++
-email = "***REMOVED***"
+email = "contact@prouvost.dev"
 subtitle = "Research Software Engineer"
 +++
 
