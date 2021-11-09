@@ -73,6 +73,9 @@ I like a streamlined environment, spending all my time in the terminal, with Vim
   Elias B. Khalil, Didier Chételat, Maxime Gasse, Antoine Prouvost, Giulia Zarpellon, Laurent
   Charlin, Andrea Lodi.
   Tutorial in [IJCAI 2020](https://ijcai20.org/), Online, Postponed.
+- [Ecole: A Library for Learning Inside MILP Solvers](pres/2021-informs.pdf).
+  Antoine Prouvost, Justin Dumouchelle, Maxime Gasse, Didier Chételat, Andrea Lodi.
+  Talk in [INFORMS](https://meetings2.informs.org/wordpress/anaheim2021/), Anaheim.
 
 #### 2020
 - [Ecole: A Gym-like Library for Machine Learning in Combinatorial Optimization Solvers](pres/2020-neurips.pdf).
