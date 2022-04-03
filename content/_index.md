@@ -3,11 +3,8 @@ email = "contact@prouvost.dev"
 subtitle = "Research Software Engineer"
 +++
 
-I am an indenpendent research sofware engineer, qualified in combinatorial optimization, machine
-learning, C++, Python, and related development tools.
-I am currently looking for contracts or job offerings.
-I am commited to have a positive social impact through my work, and am particularly interested in
-software engineering challenges related to tackling climate change.
+I am research sofware engineer in combinatorial optimization and machine learning
+working at [Artelys](https://www.artelys.com/), in Paris.
 
 I graduated with Ph.D. in Machine Learning for Combinatorial Optimization from
 [Polytechnique Montréal](https://www.polymtl.ca/en) under supervison of Prof.
@@ -16,19 +13,17 @@ at [CERC DS4DM](https://cerc-datascience.polymtl.ca/) and Prof.
 [Yoshua Bengio](https://mila.quebec/yoshua-bengio/) at [Mila](https://mila.quebec/en/).
 I worked at the interplay of deep learning and operations research, building combinatorial
 optimization algorithm that leverage machine learning to adapt to different problem structure.
+During my Ph.D., I lead the development of [Ecole](https://www.ecole.ai), a Python and C++ library
+that aims to expose a number of control problems arising in combinatorial optimization solvers as
+Markov Decision Processes (i.e., Reinforcement Learning environments).
 
 Before the Ph.D., I obtained an engineering degree (M.Sc.) in Data Science from
 [École Polytechnique](https://www.polytechnique.edu/en/), France's leading engineering school.
 
-I am currently the lead developper on [Ecole](https://www.ecole.ai), a Python and C++ library that
-aims to expose a number of control problems arising in combinatorial optimization solvers as Markov
-Decision Processes (i.e., Reinforcement Learning environments).
-
-I am passionate about anything that happens on a computer.
-I love learning programming languages, their idiomatic features, and build systems.
-I continously improve my development workflow, using git, virtual environments, continuous
-integration, and containers.
-I like a streamlined environment, spending all my time in the terminal, with Vim and Tmux.
+I am passionate about software engineering and design.
+From safe and performant code, to continuous testing, packaging, adn deployment.
+I am grateful for all the open-source tools that helped me along the way.
+I try to give back when I can and to advocate for open code around me.
 
 **Interests**: Deep Learning, Reinforcement Learning, Discrete Optimization, Software Engineering.
 
